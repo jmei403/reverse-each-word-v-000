@@ -10,7 +10,6 @@
 def reverse_each_word(string)
   words = string.split(" ")
   words.collect { |word| word.reverse }
-  words
 end
 
 p reverse_each_word("Hello there")
